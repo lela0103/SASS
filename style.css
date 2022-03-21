@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+nav {
+  background-color: #2a2b2b;
+  padding: 20px 30px;
+  position: sticky;
+  top: 0;
+}
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+#jumbotron {
+  text-align: center;
+}
+#jumbotron img {
+  width: 50%;
+  height: 50%;
+  border-radius: 10px;
+  margin: 20px 0px;
+}
+
+#products {
+  margin: 0 auto;
+  padding: 20px 100px;
+  background-color: #2a2b2b;
+  color: white;
+}
+#products .card img {
+  width: 20%;
+  height: 20%;
+  border-radius: 10px;
+}
+#products .card p, #products .card h3 {
+  width: 20%;
+}
+#products .card a {
+  border-radius: 5px;
+  background-color: #f3b93d;
+  padding: 10px;
+}
+
+#about {
+  padding: 20px 100px;
+  text-align: center;
+}
+#about img {
+  width: 50%;
+  height: 50%;
+  border-radius: 10px;
+  margin: 20px 0px;
+}
+
+#contact {
+  padding: 20px 100px;
+  text-align: center;
+  background-color: #2a2b2b;
+  color: white;
+}
+
+footer {
+  padding: 20px 100px;
+}
+footer li a {
+  text-decoration: none;
+  color: #222222;
+}
+footer p, footer h2 {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

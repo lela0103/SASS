@@ -1,0 +1,88 @@
+$text-color: rgb(34, 34, 34);
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+nav {
+    background-color: rgb(42, 43, 43);
+    padding: 20px 30px;
+    position: sticky;
+    top: 0;
+    
+    li{
+        display: inline;
+        list-style-type: none;
+        margin-right: 20px;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+#jumbotron{
+    text-align: center;
+    img{
+        width: 50%;
+        height: 50%;
+        border-radius: 10px;
+        margin: 20px 0px;
+    }
+}
+
+#products{
+    margin: 0 auto;
+    padding: 20px 100px;
+    background-color: rgb(42, 43, 43);
+    color: white;
+    .card{
+        img{
+            width: 20%;
+            height: 20%;
+            border-radius: 10px;
+        }
+        p, h3{
+            width: 20%;
+        }
+        a{
+            border-radius: 5px;
+            background-color: rgb(243, 185, 61);
+            padding: 10px;
+        }
+    }
+}
+
+#about{
+    padding: 20px 100px;
+    text-align: center;
+    img{
+        width: 50%;
+        height: 50%;
+        border-radius: 10px;
+        margin: 20px 0px;
+    }
+}
+
+#contact{
+    padding: 20px 100px;
+    text-align: center;
+    background-color: rgb(42, 43, 43);
+    color: white;
+}
+
+footer{
+    padding: 20px 100px;
+    li{
+        a{
+            text-decoration: none;
+            color: $text-color;
+        }
+    }
+    p,h2{
+        text-align: center;
+    }
+}
